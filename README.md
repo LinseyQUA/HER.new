@@ -151,7 +151,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    HTML code
   <img src="readme-images/Codehtml.1.PNG">
   <img src="readme-images/Codehtml.1s.PNG">
-  <img src="readme-images/Codehtml.1ss.PNG">
+  <img src="readme-images/codehtml.1ss.PNG">
+
 
   CSS code
   <img src="readme-images/css.1.PNG">
