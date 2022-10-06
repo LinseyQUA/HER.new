@@ -51,8 +51,10 @@ a, h1, h3, h4, h5, footer p, legend {
 	text-align: left;
   }
 
+
 a {
 	text-decoration: none;
+	
 }
 
   
@@ -134,21 +136,28 @@ header h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 	line-height: 3em;
-
+	
 
 /* voor als de nav bar wordt aangeklikt*/
 	position: fixed;
 	left: 0;
 	right: 0;
-	top: 2.9em;
+	top: 2.5em;
 	bottom: 0;
 	transform: translate(20em);
 	transition: 0.5s;
+	background-color: var(--wit);
+	color: var(--zwart);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+
   }
 
-  .navigatie a {
+  
+  .navigatie li a {
 	color: var(--wit);
 	padding: 1em;
+	
   }
 
 
@@ -209,4 +218,15 @@ main a {
 footer {
 	background-color: var(--zwart);
 	padding: 10em;
+	color: var(--wit);
 }
+
+
+
+/*Javascript class elementen die worden toegevoegd*/
+
+/*toont menu*/
+.toonMenu ul{
+	transform: translate(0em);
+  }
+  
