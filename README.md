@@ -145,7 +145,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Ik heb geen hinderingen gehad en met mijn code gaat het allemaal goed en ben ik goed op schema. Ik heb tot nu toe HTML en css code geschreven. 
-  Verder had ik ook geen vragen, omdat ik lekker bezig met coderen en ook merk er meer plezier in te hebben dat de vorige keer. Dit omdat ik alles beter begrijp dan voorheen. Ik moet alleen mijn github op orde krijgen, dat is nog niet goed aangevuld.
+  Verder had ik ook geen vragen, omdat ik lekker bezig met coderen en ook merk ik er meer plezier in te hebben dan de vorige keer. Dit omdat ik alles beter begrijp dan voorheen. Ik moet alleen mijn github op orde krijgen, dat is nog niet goed aangevuld.
+
+  Het eerse voorgang gesprek kon ik niet aanwezig zijn vanwege dat mijn moeder ziek was. 
 
 
    HTML code
@@ -163,23 +165,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/css.1sssss.PNG">
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -193,8 +178,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het coderen gaat nogsteeds goed, ik vergat alleen steeds de link van mijn github toetevoegen aan het excel bestand. Maar verder ervaar ik nogsteeds geen hinderingen. Momeenteel ben ik toe aan de css van mijn footer. Daarna wil ik mijn tweede pagina globaal gaan maken dus dat alle inhoud er is, en daarna deze te vormgeven. Ik heb een klein beetje javascript al geschreven voor mijn hamburger menu.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
