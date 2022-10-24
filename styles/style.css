@@ -41,6 +41,7 @@ button, summary {
 
 body {
   background-color: var(--wit);
+  
 }
 
 
@@ -115,6 +116,7 @@ header h2 {
 	font-size: 18px;
 	padding-left: 1.8em;
 	padding-bottom: 2em;
+	margin-top: -1.5em;
 	
 }
 
@@ -148,17 +150,22 @@ header h2 {
 	transition: 0.5s;
 	background-color: var(--wit);
 	color: var(--zwart);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	text-decoration: none;
+    font-family: sans-serif, 'Arial', 'Helvetica', sans-serif;;
+	
+	
 
   }
 
+  .navigatie li{
+    margin-left: 2em;
+  }
   
-  .navigatie li a {
-	color: var(--wit);
-	padding: 1em;
+  .navigatie li a:nth-last-of-type(1){
+	color: var(--zwart);
 	
   }
+
+
 
 
 
@@ -175,21 +182,33 @@ main {
 	margin-right: 3em;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 0.5em;
+	margin-bottom: 0.5em;
+	
   }
   
   main h3 {
 	text-align:left;
 	color: var(--zwart);
-	font-size: 2em;
+	font-size: 1.5em;
 	padding:0.5em;
 	padding-top: 1em;
-	margin-left: 1.2em;
+	margin-left: 1.7em;
   }
 
 main h3:nth-of-type(2) {
 	font-size: 1.5em;
 	margin-left: 1.8em;
 }
+
+main h3:nth-of-type(3) {
+	font-size: 1.5em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	
+}
+
+
+
 
 
 main img {
@@ -213,13 +232,106 @@ main a {
 
 }
 
+/*Contact formulier*/
+/********************************/
+/*Contact formulier in de footer*/
+/********************************/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid var(--bruin);
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 7px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: var(--wit);
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  input[type=submit] {
+	background-color: var(--bruin);
+	color: var(--wit);
+	padding: 15px ;
+	width: 9em;
+	border: none;
+	cursor: pointer;
+	
+	
+  }
+
+  
+  input[type=submit]:hover {
+	background-color: var(--zwart);
+	color: var(--wit);
+  }
+  
+  label{
+	color:var(--zwart);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color:var(--wit);
+	padding: 35px;
+	margin-bottom: -1em;
+	margin-top: -0.5em;
+
+  }
+
+
+
+
 /*footer*/
 
 footer {
 	background-color: var(--zwart);
-	padding: 10em;
+	padding: 5em;
 	color: var(--wit);
+	text-decoration: none;
+	padding-top: 4em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+	
 }
+
+footer h2 {
+	font-size: 1.5em;
+	
+	
+
+}
+
+footer ul {
+	list-style: none;
+	padding: 1em;
+	margin-bottom: 3em;
+	margin-top: 0.1em;
+	
+}
+
+footer p {
+	color:var(--bruin);
+	font-size: 13px;
+	
+
+}
+
+section {
+	background-color: var(--beige) ;
+	padding: 2em;
+	margin-left: -5em;
+	margin-right: -5em;
+	margin-bottom: -5em;
+}
+
+
+
+
+
 
 
 
@@ -230,3 +342,10 @@ footer {
 	transform: translate(0em);
   }
   
+
+  iframe {
+	width:415px;
+	height:215px;
+	margin-bottom: -0.7em;
+	
+  }
