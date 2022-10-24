@@ -58,6 +58,10 @@ a {
 	
 }
 
+p {
+	color: var(--zwart);
+}
+
   
 
   /*header stijlen*/
@@ -67,7 +71,7 @@ a {
   
   /*logo en hamburger menu stijlen*/
   header div {
-	background-color: var(--wit);
+	background-color: white;
 	color: var(--zwart);
 	position: fixed;
 	width: 100%;
@@ -107,7 +111,7 @@ header h1 {
 	
   font-weight: 700;
   font-size: 2em;
-  padding-top: 4em;
+  padding-top: 1em;
 }
 
 header h2 {
@@ -121,7 +125,19 @@ header h2 {
 }
 
 
-
+/*knoppen in de header met mijn extra functies*/
+header button {
+	padding: 1.2em;
+	margin: 1em;
+	margin-top: 6em;
+	margin-bottom: 1em;
+	background-color: var(--wit);
+	border: none;
+	color: var(--zwart);
+	border-radius: 1em;
+	
+  }
+  
  
 
 
@@ -191,13 +207,14 @@ main {
 	color: var(--zwart);
 	font-size: 1.5em;
 	padding:0.5em;
-	padding-top: 1em;
+	padding-top: 1.5em;
 	margin-left: 1.7em;
   }
 
 main h3:nth-of-type(2) {
 	font-size: 1.5em;
 	margin-left: 1.8em;
+	margin-top: 0em;
 }
 
 main h3:nth-of-type(3) {
@@ -231,6 +248,8 @@ main a {
   font-weight: bolder;
 
 }
+
+
 
 /*Contact formulier*/
 /********************************/
@@ -328,7 +347,15 @@ section {
 	margin-bottom: -5em;
 }
 
+Footer iframe {
+	margin: auto;
+	display: flex;
+	margin-bottom: 2em;
+	margin-left: -2em;
+	width: 20em;
+	margin-top: -1em;
 
+}
 
 
 
@@ -348,4 +375,17 @@ section {
 	height:215px;
 	margin-bottom: -0.7em;
 	
+  }
+
+  /*vergroot de teksten*/
+.groter {
+	font-size: 1.2em;
+  }
+  
+  /*kleuren voor dark theme*/
+  .kleuren {
+	--wit: rgb(0, 0, 0);
+	--zwart: rgb(255, 255, 255);
+	--bruin: rgb(222, 222, 222) ; 
+	--beige: rgb(255, 255, 255);
   }

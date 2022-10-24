@@ -5,10 +5,16 @@ console.log("hi");
 var deButton = document.querySelector("img:nth-child(2)");
 var deNav = document.querySelector(".navigatie")
 var body = document.querySelector("body")
+var donker = document.querySelector(".maan")
+var buttonGroter = document.querySelector("button:first-of-type")
+var main = document.querySelector("main")
+
 
 
 /*functie koppelen aan knop als je klikt*/
 deButton.addEventListener("click", toggleMenu);
+buttonGroter.addEventListener("click", groter)
+donker.addEventListener("click", thema)
 
 
 /*verschijning van het hamburger menu*/
@@ -27,3 +33,18 @@ function openForm() {
   function closeForm() {
     document.getElementById("myForm").style.display = "none";
   }
+
+
+  /*vergroting van de tekst*/
+function groter () {
+  main.classList.toggle("groter")
+ 
+}
+
+/*Verandering kleuren naar donker thema*/
+function thema () {
+  body.classList.toggle("kleuren")
+}
+
+
+
